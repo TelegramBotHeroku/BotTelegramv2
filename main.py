@@ -9,9 +9,9 @@ from user_handler.listener import *
 
 
 # Bot
-app              = Client(config("SESSION", default="Temp", cast=str))
-creators         = config("CREATORS", default="", cast=lambda v: [s.strip() for s in v.split(',')])
-bot              = config("BOT", default="test", cast=str)
+app              = Client(config("b8b23c77ac286a14a41046ea2b66263c", default="Temp", cast=str))
+creators         = config("2389796", default="", cast=lambda v: [s.strip() for s in v.split(',')])
+bot              = config("1721959350:AAF1BfS4HY3qEeWnZOOVmzPVZCT5SJ7beCw", default="test", cast=str)
 creator_message  = "The Server Is Up And Running.\n=========================\n\nTest Phase"
 app.start()
 ID               = (app.get_me()).id
