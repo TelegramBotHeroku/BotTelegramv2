@@ -1,2 +1,2 @@
 
-worker: python3 source ./commands/deploy
+worker: python3 deploy
